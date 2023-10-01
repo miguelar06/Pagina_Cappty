@@ -87,6 +87,7 @@ h5{
 }
 
 #mensaje{
+    max-width: 30%;
     width: 90%;
     height: 80%;
 }
