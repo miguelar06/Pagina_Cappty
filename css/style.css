@@ -132,3 +132,52 @@ h5{
     justify-content: space-around;
 }
 
+
+
+@media screen and (max-width: 1200px){
+    h1{
+        font-size: 4.882353rem;
+    }
+    #mensaje{
+        max-width: 35%;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    h1{
+        font-size: 3.882353rem;
+    }
+    #mensaje{
+        max-width: 40%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #seccion1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 95%;
+    }
+    #mensaje{
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width: 460px){
+    h1{
+        font-size: 3rem;
+    }
+    #mensaje{
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 270px){
+    h1{
+        font-size: 2rem;
+    }
+    #mensaje{
+        max-width: 98%;
+    }
+}
