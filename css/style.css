@@ -68,12 +68,6 @@ h5{
     opacity: 90%;
 }
 
-#inicio2{
-    width: 100%;
-    height: 100vh;
-    background-color: greenyellow;
-}
-
 #seccion1{
     display: flex;
     flex-direction: row;
@@ -127,9 +121,36 @@ h5{
 
 #form1{
     display: flex;
+    width: 75%;
     height: 70%;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.boton1:link, .boton1:visited{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    margin: 1%;
+}
+
+.boton1:hover, .boton1:active{
+    background-color: white;
+    color: black;
+    border: 1px solid black; 
+
+}
+
+
+#inicio2{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
 }
 
 
@@ -152,7 +173,7 @@ h5{
     }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 850px){
     #seccion1{
         display: flex;
         flex-direction: column;
@@ -161,6 +182,9 @@ h5{
     }
     #mensaje{
         max-width: 70%;
+    }
+    #mensaje1{
+        padding: 2%;
     }
 }
 
